@@ -2,7 +2,7 @@
   "homepage": "http://moehijazi.github.io/demoahmad",
   "name": "material-ui-vite",
   "version": "5.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "vite",
     
