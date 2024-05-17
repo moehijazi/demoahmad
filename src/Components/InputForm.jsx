@@ -39,7 +39,7 @@ export default function InputForm() {
     <React.Fragment>
       <Title>Add New Number</Title>
                 <Box component="form" onSubmit={handleSubmit} noValidate>
-                <Grid item container spacing={2}>
+                <Grid item container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                 <Grid item xs={4}>
                 {/* <TextField
                   margin="normal"
