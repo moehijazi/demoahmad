@@ -19,7 +19,7 @@ export default function App() {
         <Box sx={{ my: 6 }}>
         
           <Routes>
-            <Route path="/login" element={<SignIn/>} />
+            <Route path="/" element={<SignIn/>} />
             <Route path = "/" element={<PrivateRoute />}>
               <Route path="/" element={<Dashboard/>} />
             </Route>
