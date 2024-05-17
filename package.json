@@ -1,11 +1,10 @@
 {
-  "homepage": "http://moehijazi.github.io/demoahmad",
+  "homepage": "https://moehijazi.github.io/demoahmad",
   "name": "material-ui-vite",
   "version": "5.0.0",
   "private": false,
   "scripts": {
     "dev": "vite",
-    
     "build": "vite build",
     "serve": "vite preview",
     "predeploy": "npm run build",
