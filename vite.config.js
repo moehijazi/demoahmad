@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
+      chunkSizeWarningLimit:1500,
         output:{
             manualChunks(id) {
                 if (id.includes('node_modules')) {
