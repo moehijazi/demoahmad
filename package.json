@@ -1,11 +1,14 @@
 {
+  "homepage": "http://moehijazi.github.io/demoahmad",
   "name": "material-ui-vite",
   "version": "5.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -24,6 +27,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "latest",
+    "gh-pages": "^6.1.1",
     "vite": "latest"
   }
 }
